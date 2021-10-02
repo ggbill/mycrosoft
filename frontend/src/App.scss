@@ -1,0 +1,33 @@
+.content {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 12px;
+    z-index: 2;
+    position: relative;
+}
+
+.full-height-content {
+    min-height: calc(100vh - 170px); /* will cover the 100% of viewport minus (header + footer) */
+    overflow: hidden;
+    display: block;
+    margin-top: 40px;
+}
+
+.header-section {
+    padding: 75px 0;
+
+    .title-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .title {
+            font-size: 3em;
+            font-weight: 600;
+            line-height: 1.1;
+        }
+
+        .sub-title {
+            font-size: 1.3em;
+        }
+    }
+}
